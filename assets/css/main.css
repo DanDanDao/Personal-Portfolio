@@ -1302,11 +1302,12 @@ html {
 }
 
 body {
-    background-image: url("images/overlay.png"), url("images/104.png");
+    background-image: url("images/current.png");
     background-repeat: repeat, no-repeat;
     background-size: auto, 100% 100%;
     background-attachment: fixed;
     overflow-y: scroll;
+    background-position: center;
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
