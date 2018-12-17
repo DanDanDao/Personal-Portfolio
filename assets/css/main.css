@@ -69,7 +69,7 @@ input, select, textarea {
 }
 
 /* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
-#Iframe-Master-CC-and-Rs {
+#iframe-resume {
   max-width: 512px;
   max-height: 100%;
   overflow: hidden;
@@ -81,7 +81,7 @@ input, select, textarea {
   height: 0;    /* gets height from padding-bottom */
 
   /* put following styles (necessary for overflow and scrolling handling on mobile devices) inline in .responsive-wrapper around iframe because not stable in CSS:
-    -webkit-overflow-scrolling: touch; overflow: auto; */
+  -webkit-overflow-scrolling: touch; overflow: auto; */
 
 }
 
@@ -105,6 +105,7 @@ input, select, textarea {
   cursor: pointer;
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.75em;
+  font-weight: 300;
 }
 
 
